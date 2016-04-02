@@ -1,0 +1,28 @@
+﻿{
+  "version": "1.0.0-rc2-00001",
+  "description": "SendGrid.NetCore",
+  "authors": [ "Brandless Limited" ],
+  "tags": [ "" ],
+  "projectUrl": "",
+  "licenseUrl": "",
+  "dependencies": {
+    "Microsoft.AspNetCore.WebUtilities": "1.0.0-rc2-20435",
+    "System.Dynamic.Runtime": "4.0.11-rc2-23931",
+    "System.Linq": "4.1.0-rc2-23930",
+    "System.Net.Http": "4.0.1-rc2-23930",
+    "Microsoft.AspNet.WebApi.Client": "5.2.3",
+    "System.Xml.ReaderWriter": "4.0.11-rc2-23930",
+    "System.Net.Mail": "1.0.0-rc2-00001"
+  },
+  "frameworks": {
+    "dnxcore50": {
+      "dependencies": {
+        "Microsoft.NETCore.Platforms": "1.0.1-rc3-23904"
+      },
+      "imports": [
+        "dotnet5.4",
+        "portable-net452+win81"
+      ]
+    }
+  }
+}
