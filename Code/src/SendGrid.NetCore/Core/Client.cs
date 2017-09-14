@@ -6,7 +6,9 @@ using System.Threading.Tasks;
 using System.Text;
 using SendGrid.Resources;
 using System.Net;
+using Newtonsoft.Json;
 using Newtonsoft.Json.Linq;
+using SendGrid.NetCore.Extensions;
 
 namespace SendGrid
 {
@@ -67,8 +69,7 @@ namespace SendGrid
                         case Methods.GET:
                             return await client.GetAsync(endpoint);
                         case Methods.POST:
-							// TODO: JC: Find new way to achieve this without dependency on Microsoft.AspNet.WebApi.Client
-							return await client.PostAsJsonAsync(endpoint, data);
+                            return await client.PostAsJsonAsync(endpoint, data);
                         case Methods.PATCH:
                             endpoint = _baseUri + endpoint;
                             StringContent content = new StringContent(data.ToString(), Encoding.UTF8, MediaType);
