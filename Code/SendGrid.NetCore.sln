@@ -7,7 +7,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{011AD19A-76A
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{AD03AE02-2007-4A1D-8EF0-05488918CF55}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SendGrid.NetCore", "src\SendGrid.NetCore\SendGrid.NetCore.csproj", "{4B5D9CF8-7933-4A0C-A41A-320B86D461C0}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SendGrid.NetCore", "SendGrid.NetCore\SendGrid.NetCore.csproj", "{4B5D9CF8-7933-4A0C-A41A-320B86D461C0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
