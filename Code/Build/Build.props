@@ -1,8 +1,9 @@
 <Project>
   <Import Project="..\..\version.xml" />
   <PropertyGroup>
-    <PackageTags>Brandless</PackageTags>
-    <Product>Brandless</Product>
+    <TargetFrameworks>netstandard2.0;netcoreapp2.1</TargetFrameworks>
+    <PackageTags>SendGrid.NetCore</PackageTags>
+    <Product>SendGrid.NetCore</Product>
     <SignAssembly>True</SignAssembly>
     <AssemblyOriginatorKeyFile>$(MSBuildThisFileDirectory)Key.snk</AssemblyOriginatorKeyFile>
     <PublicSign Condition="'$(OS)' != 'Windows_NT'">True</PublicSign>

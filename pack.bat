@@ -1,1 +1,1 @@
-call pack-template Release
+call %NuGetSynchroniser%
